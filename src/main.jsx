@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import Root from "./companents/Root";
 import { BrowserRouter } from "react-router-dom";

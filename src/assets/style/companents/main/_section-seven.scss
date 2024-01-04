@@ -1,0 +1,97 @@
+.section-seven{
+    &_card{
+            display: flex;
+            gap: 25px;
+        &_one{
+            width: 430px;
+            height: 288px;
+            background: #F83D3D;
+            margin-left: 50px;
+            margin-top: 30px;
+            &-title{
+                color: #fff;
+                margin-top: 32px;
+                margin-left: 45px;
+                font-size: 36px;
+                font-weight: 600;
+            }
+            &-text{
+                max-width: 100px;
+                font-size: 26px;
+                color: #fff;
+                margin-left: 45px;
+            }
+            &-text p{
+                margin-left: 45px;
+            }
+            &-img-one{
+                margin-left: 250px;
+                margin-top: -170px;
+            }
+            &-img-two{   
+                margin-top: -130px;
+                margin-left: 130px;
+            }
+        }
+        &-two{
+            width: 430px;
+            height: 288px;
+            background: #3C93C5;
+            margin-left: 470px;
+            margin-top: -327px;
+            &-title{
+                color: #fff;
+                margin-top: 32px;
+                padding-top: 32px;
+                margin-left: 45px;
+                font-size: 36px;
+                font-weight: 600;
+            }
+            &-text{
+                max-width: 100px;
+                font-size: 26px;
+                color: #fff;
+                margin-left: 45px;
+            }
+            &-img-one{
+                margin-left: 660px;
+                margin-top: -230px;
+            }
+            &-img-two{
+                margin-left: 755px;
+                margin-top: -295px;
+            }
+        }
+        &_three{
+            width: 430px;
+            height: 288px;
+            background: red;
+            margin-left: 940px;
+            margin-top: -156px;  
+            &-title{
+                color: #fff;
+                padding-top: 32px;
+                margin-left: 45px;
+                font-size: 36px;
+                font-weight: 600;
+            }
+            &-text{
+                max-width: 100px;
+                font-size: 26px;
+                color: #fff;
+                margin-left: 45px;
+            }
+            &-text p{
+                margin-left: 45px;
+            }
+            &-img-one{
+                margin-left: 1190px;
+                margin-top: -295px;
+            }
+            &-img-two{
+                margin-left: 1070px;
+                margin-top: -130px;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.section-two{
+    &_btn{
+        width: 247px;
+        height: 54px;
+        border-radius: 0px 30px 0px 0px;
+        background: var(--Foundation-Blue-blue-500, #2B3C7A);
+        color: #fff;
+        font-size: 26px;
+        margin-left: -1px;
+    }
+    &_cards{
+        display: flex;
+        margin-left: 100px;
+        margin-top: 30px;
+        gap: 50px;
+    }
+    &_card-one{
+        width: 218px;
+        height: 336px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px 0px rgba(73, 118, 232, 0.10);
+        background: #fff;
+        gap: 50px;
+        &_hot{
+            width: 54px;
+            height: 22px;
+            border-radius: 10px;
+            background: #FE26CE;
+            padding: 0px 10px;
+            color: #fff;
+        }
+        &_img{
+            margin-left: 20px;
+        }
+        &_title{
+            text-align: center;
+            margin-inline: 14px;
+        }
+        &_stars{
+            column-gap: 4px;
+            margin-left: 14px;
+        }
+        &_star-one{
+            margin-left: 4px;
+        }
+        &_stars span{
+            font-size: 13px;
+            margin-left: 8px;
+        }
+        &_checks{
+            margin-left: 14px;
+            margin-top: 5px;
+        }
+        &_checks span{
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 10px;
+        }
+        &_btn{
+            width: 129px;
+            height: 25px;
+            background: #27376F;
+            color: #fff;
+            border-radius: 1px;
+            padding: 2px;
+            font-size: 14px;
+            margin-left: 14px;
+        }
+        &_span{
+            margin-left: 5px;
+        }
+        &_money{
+            margin-left: 14px;
+            margin-top: 12px;
+            font-weight: 600;
+        }
+    }
+   
+    &_btn-two{
+        position: relative;
+        margin-left: 640px;
+        margin-top: 30px;
+        width: 215px;
+        height: 48px;
+        padding-left: 84px;
+        margin-bottom: 36px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px 0px rgba(73, 118, 232, 0.10);
+    }
+    &_more{
+        position: absolute;
+        margin-left: -110px;
+        margin-top: -19px;
+    }
+    &_btn-two span{
+        position: absolute;
+        margin-top: -11px;
+        margin-left: -50px;
+    }
+}

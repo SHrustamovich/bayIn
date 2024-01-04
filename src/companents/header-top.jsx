@@ -1,8 +1,9 @@
-import { Button, Flex, Select, Typography } from "antd";
+import { Button, Flex, Typography } from "antd";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../context/languageContext";
 import useLanguage from "../hooks/useLanguage";
+import { Icons } from "../assets/icons";
 const { Text } = Typography;
 
 const HeaderTop = () => {
@@ -16,22 +17,25 @@ const HeaderTop = () => {
     return (
         <Flex justify='space-between' align='center' className='header-top'>
             <Flex align='center' gap='large' className='header-top__location'>
-                <Button>0% Рассрочка</Button>
+                <Button className="header-top_btn">{translate("plan")}</Button>
                 <div>
                     {translate("punk")}{" "}
                     <Link>
                         {" "}
-                        <Text>г.Ургенч</Text>
+                        <Text className="header-top_text">
+                            <Icons.location className="header-top_location"/>
+                             г.Ургенч
+                            </Text>
                     </Link>
                 </div>
             </Flex>
             <Flex align='center' gap='large' className='header-top__question'>
-                <Link>{translate("question")}</Link>
-                <Button>Заказать звонок</Button>
+                <Link className="header-top_link">{translate("question")}</Link>
+                <Button className="header-top_btn">{translate("call")}</Button>
                 <div className='select'>
                     <select
                         defaultValue={language}
-                        className='header-hat_select'
+                        className='header-top_select'
                         onChange={handlyChange}>
                         <option value='uz'>UZ</option>
                         <option value='ru'>RU</option>
@@ -39,6 +43,7 @@ const HeaderTop = () => {
                 </div>
             </Flex>
         </Flex>
+        
     );
 };
 
