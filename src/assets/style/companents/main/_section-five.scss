@@ -1,0 +1,64 @@
+.section-five{
+    &_brend{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 11px;
+        margin-left: 50px;
+        margin-top: 30px;
+        &_img-two{
+            width: 214px;
+            height: 78px;
+            margin-top: 7px;
+            background-color: #fff;
+            box-shadow: 0px 4px 10px 0px rgba(73, 118, 232, 0.10);
+            padding-left: 50px;
+            padding-top: 20px;
+        }
+        &_img-three{
+            margin-left: 80px;
+        }
+        &_img-five{
+            margin-left: 65px;
+        }
+        &_img-six{
+            margin-left: -10px;
+        }
+        &_img-ten{
+            margin-left: -10px;
+        }
+        &_img-twelve{
+            margin-left: 85px;
+        }
+    }
+    &_brend span{
+        margin-left: -140px;
+        margin-top: 100px;
+        font-weight: 600;
+        color: #313030;
+    }
+    &_span{
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    &_btn-two{
+        position: relative;
+        margin-left: 600px;
+        margin-top: 30px;
+        width: 215px;
+        height: 48px;
+        padding-left: 84px;
+        margin-bottom: 36px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px 0px rgba(73, 118, 232, 0.10);
+    }
+    &_more{
+        position: absolute;
+        margin-left: -110px;
+        margin-top: -19px;
+    }
+    &_btn-two span{
+        position: absolute;
+        margin-top: -11px;
+        margin-left: -50px;
+    }
+}

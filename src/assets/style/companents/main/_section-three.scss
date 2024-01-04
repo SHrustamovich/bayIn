@@ -1,0 +1,110 @@
+.section-three{
+    margin-left: 53px;
+    margin-top: 36px;
+    &_img{
+        position: relative;
+        &_star-one{
+            position: absolute;
+            margin-left: -250px;
+            margin-top: 70px;
+        }
+        &_star-two{
+            position: absolute;
+            margin-left: -80px;
+            margin-top: 50px;
+        }
+        &_star-three{
+            position: absolute;
+            margin-left: -230px;
+            margin-top: 400px;
+        }
+        &_star-four{
+            position: absolute;
+            margin-left: -260px;
+            margin-top: 230px;
+        }
+        &_star-five{
+            position: absolute;
+            margin-left: -90px;
+            margin-top: 176px;
+        }
+        &_star-six{
+            position: absolute;
+            margin-left: -80px;
+            margin-top: 350px;
+        }
+    }
+    &_title{
+        position: absolute;
+        font-family: 'Sofia Sans', sans-serif;
+        color: #E53E5C;
+        margin-top: -370px;
+        margin-left: 60px;
+        text-align: center;
+        max-width: 159px;
+        font-size: 46px;
+        
+    }
+    &_images{
+        margin-left: 300px;
+        margin-top: -482px;
+    }
+    &_image-two{
+        margin-top: 15px;
+    }
+    &_image-three{
+           margin-left: 240px;
+           margin-top: -485px;
+        }
+    &_image-four{
+        margin-left: 240px;
+        margin-top: 10px;
+    }
+
+    &_img-two{
+        position: relative;
+        margin-left: 71.5%;
+        margin-top: -480px;
+        &_star-one{
+            position: absolute;
+            margin-left: -250px;
+            margin-top: 70px;
+        }
+        &_star-two{
+            position: absolute;
+            margin-left: -80px;
+            margin-top: 50px;
+        }
+        &_star-three{
+            position: absolute;
+            margin-left: -230px;
+            margin-top: 400px;
+        }
+        &_star-four{
+            position: absolute;
+            margin-left: -260px;
+            margin-top: 230px;
+        }
+        &_star-five{
+            position: absolute;
+            margin-left: -90px;
+            margin-top: 176px;
+        }
+        &_star-six{
+            position: absolute;
+            margin-left: -80px;
+            margin-top: 350px;
+        }
+    }
+    &_title-two{
+        position: absolute;
+        font-family: 'Sofia Sans', sans-serif;
+        color: #E53E5C;
+        margin-top: -370px;
+        margin-left: 1110px;
+        text-align: center;
+        max-width: 159px;
+        font-size: 46px;
+        
+    }
+}

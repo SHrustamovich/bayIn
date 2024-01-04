@@ -1,5 +1,124 @@
 .header-top {
     background-color: $mainColor;
-    padding:10px 50px;
-    color: white;
+    height: 48px;
+    padding: 10px 50px;
+    color: #fff;
+    &_btn{
+        width: 169px;
+        height: 30px;
+        padding-top: 3px;
+    }
+    &_text{
+        position: absolute;
+        padding-top: -10px;
+        margin-left: 40px;
+        color: #fff;
+    }
+    &_location{
+        position: absolute;
+        margin-left: -35px;
+    }
+    &_link{
+        text-decoration: underline;
+    }
+    &_select{
+        background: $mainColor;
+        color: #fff;
+        border: none;
+        outline: none;
+    }
+}
+.header{
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    &__logo{
+        width: 82px;
+        height: 36px;
+        margin-left: 40px;   
+        margin-top: 20px;
+        background: #27376F;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 0px 20px 0px 0px;
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    &-span{
+        margin-left: 30px;
+        color: #000;
+        margin-top: -100px;
+        font-weight: 700;
+    }
+    &_catalog{
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-bottom: 20px;
+    }
+    &__catalog{
+        margin-left: -220px;
+        position: static;
+        width: 169px;
+        height: 36px;
+        padding-left: 30px;
+        color: #fff;
+        background: #27376F;
+        border-radius: 0px 20px 0px 0px;
+    }
+    &__catalog_img{
+        position: absolute;
+        margin-left: -200px;
+        margin-top: 5px;
+    }
+    &_input{
+        margin-left: 14px;  
+        margin-top: 15px;
+    }
+    &-input{
+        width: 456px;
+    }
+    &__btn{
+        width: 65px;
+        height: 40px;
+        border-radius: 10px;
+        background: #27376F;
+        margin-left: -30px;
+    }
+    &-order{
+        margin-inline: 10px;
+    }
+    &-order span{
+        position: absolute;
+        margin-top: 5px;
+    }
+    &-like{
+        margin-left: 100px;
+    }
+    &-like span{
+        position: absolute;
+        margin-top: 5px;
+    }
+    &-shop{
+        margin-left: 100px;
+    }
+    &-shop span{
+        position: absolute;
+        margin-top: 5px;
+    }
+    &-user_btn{
+        position: relative;
+        margin-left: 100px;
+    }
+    &-user-btn{
+        background: #27376F;
+        width: 160px;
+        height: 35px;
+    }
+    &-user{
+        margin-left: -90px;
+    }
+    &-user_btn span{
+        position: absolute;
+        color: #fff;
+        margin-left: -50px;  
+    }
 }
