@@ -1,0 +1,191 @@
+.sport-page{
+    &_cards{
+        &-items{
+            margin-left: 280px;
+            margin-top: 45px;
+            &-btn{
+                width: 126px;
+                border-radius: 16px;
+                background: var(--Foundation-Blue-blue-500, #2B3C7A);
+                color: #FFF;
+                &-icon{
+                    margin-left: 22px;
+                }
+            }
+            &-btn-two{
+                width: 126px;
+                border-radius: 16px;
+                background: var(--Foundation-Blue-blue-500, #2B3C7A);
+                color: #FFF;
+                margin-left: 10px;
+                &-icon{
+                    margin-left: 22px;
+                }
+            }
+            &_select{
+                margin-left: 880px;
+                margin-top: -30px;
+                font-size: 12px;
+            }
+        }
+        &-items a{
+            text-decoration: underline;
+            margin-left: 10px;
+        }
+        &-all{
+            display: flex;
+            flex-wrap: wrap;
+            &-one{
+            width: 218px;
+            height: 356px;
+            margin-left: 300px;
+            margin-top: 35px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px 0px rgba(73, 118, 232, 0.10);
+            background: #fff;
+            gap: 50px;
+            cursor: pointer;
+            &-all{
+                width: 218px;
+                height: 356px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 10px 0px rgba(73, 118, 232, 0.10);
+                background: #fff;
+            }
+            &-icon{
+                position: relative;
+                z-index: 2;
+                padding-left: 175px;
+                padding-top: 10px;
+            }
+            &_img{
+                margin-left: 13px;
+                margin-top: -45px;
+                
+                img{
+                    position: relative;
+                    z-index: 0;
+                    width: 181px;
+                    height: 160px;
+                    object-fit: cover;
+                    background: none;
+                }
+            }
+             &_title{
+                    position: absolute;
+                    max-width: 230px;
+                    color: #000;
+                    margin-inline: 14px;
+                    font-size: 16px;
+                    font-weight: 600;
+
+        }
+        &_stars{
+            margin-left: 14px;
+            margin-top: 50px;
+            &-two{
+                margin-left: 4px;
+            }
+        }
+        &_stars span{
+            color: #000;
+            margin-left: 8px;
+        }
+        &_checks{
+            margin-left: 14px;
+            margin-top: 5px;
+        }
+        &_checks span{
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 5px;
+            color: #000;
+        }
+        &_btn{
+            width: 129px;
+            height: 25px;
+            background: #27376F;
+            color: #fff;
+            border-radius: 1px;
+            padding: 2px;
+            font-size: 14px;
+            margin-left: 14px;
+        }
+        &_span{
+            margin-left: 5px;
+            color: #000;
+        }
+        &_money{
+            margin-left: 14px;
+            margin-top: 7px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #000;
+        }
+         
+    }
+    &-two{
+            width: 218px;
+            height: 356px;
+            margin-left: 50px;
+            margin-top: 35px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px 0px rgba(73, 118, 232, 0.10);
+            background: #fff;
+            gap: 50px;
+            cursor: pointer;
+            &_img{
+                margin-top: -50px;
+                margin-left: 20px;
+            }
+            &_title{
+                max-width: 200px;
+                font-weight: 600;
+                margin-left: 14px;
+                font-size: 16px;
+                margin-bottom: -30px;
+                color: #000;
+            }
+            &_items{
+                margin-top: -45px;
+            }
+   }
+        }
+        &-pagination{
+            margin-left: 300px;
+            color: var(--Foundation-Blue-blue-600, #27376F);
+            &-span{
+                margin-left: 55px;
+            }
+            &_btn{
+                width: 77.838px;
+                height: 35px;
+                color: #FFF;
+                font-size: 12px;
+                font-weight: 400;
+                padding-left: -10px;
+                margin-left: 25px;
+                border-radius: 10px;
+                background: var(--Foundation-Blue-blue-600, #27376F);
+            }
+        }
+        &-pagination span{
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        &-pagination span:active{
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 10px;
+            background: var(--Foundation-Blue-blue-600, #27376F);
+        }
+        &-btn{
+            width: 50px;
+            height: 50px;
+            margin-left: 1340px;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    }
+}

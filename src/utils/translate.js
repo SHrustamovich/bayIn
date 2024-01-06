@@ -24,6 +24,12 @@ const ru = {
     menu: "Главная",
     sport: "Спорт",
     boots: "Спортивные кроссовки",
+    time: "Срок доставки",
+    this: "Показать все",
+    size: "Размер",
+    color: "Цвет",
+    height: "Цена",
+    again: "Дальше",
 };
 const uz = {
     plan: "0% To'lov",
@@ -49,7 +55,13 @@ const uz = {
     buy: "Sotish",
     menu: "Bosh sahifa",
     sport: "Sport",
-    boots: "Sport poyabzali"
+    boots: "Sport poyabzali",
+    time: "Yetkazib berish muddati",
+    this: "Hammasini ko'rsatish",
+    size: "O'lchov",
+    color: "Rang",
+    height: "Narx",
+    again: "Yana",
 };
 
 
