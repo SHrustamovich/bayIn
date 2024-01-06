@@ -1,0 +1,212 @@
+.sport-page{
+    height: 2300px;
+    margin-left: 50px;
+    &_titles{
+        display: flex;
+        margin-top: 30px;
+        color: #767676;
+    }
+    &_title{
+        margin-top: 20px;
+    }
+    &_text{
+        position: absolute;
+        margin-left: 400px;
+        margin-top: -32px;
+        color: #797979;
+    }
+    &_btns{
+        border: none;
+        background: #F0F0F0;
+        color: #000;
+        margin-top: 10px;
+    }
+    &_btn{
+        margin-left: 12px;
+        border: none;
+        background: #F0F0F0;
+        color: #000;
+        margin-top: 10px;
+    }
+    &_menu{
+        margin-top: -2030px;
+        &-title{
+            margin-top: 37px;
+            font-weight: 600;
+            &-icon{
+                margin-left: 200px;
+                margin-top: -20px;
+            }
+        }
+    }
+    &_radio{
+        &-input{
+            width: 21px;
+            height: 21px;
+
+        }
+        &-one span {
+            position: absolute;
+            font-size: 18px;
+            margin-left: 5px;
+            margin-top: -3px;
+
+        }
+
+        &-two span {
+            position: absolute;
+            font-size: 18px;
+            margin-left: 5px;
+            margin-top: -3px;
+        }
+          &-three span {
+            position: absolute;
+            font-size: 18px;
+            margin-left: 5px;
+            margin-top: -3px;
+
+        }
+          &-five span {
+            position: absolute;
+            font-size: 18px;
+            margin-left: 5px;
+            margin-top: -3px;
+
+        }
+    }
+    &-checkbox{
+        &-title{
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        &_icon{
+            margin-left: 145px;
+        }
+        
+    }
+    &-checkboxes{
+               margin-top: 10px;
+            &_one{
+                width: 21px;
+                height: 21px;
+            }
+            &_link{
+                text-decoration: underline;
+            }
+            
+        }
+        &-checkboxes span{
+            position: absolute;
+            font-weight: 600;
+            margin-top: -3px;
+            margin-left: 5px;
+        }
+        &_color{
+            margin-top: 15px;
+            &_icon{
+                margin-left: 170px;
+            }
+        }
+        &_colors{
+            max-width: 150px;
+            display: flex;
+            flex-wrap: wrap;
+            &-one{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #FF2D2D;
+                margin-top: 10px;
+            }
+            &-two{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #3C2BFE;;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            &-three{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #86DD42;;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            &-four{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #F425E0;;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            &-five{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #00FFD1;
+                margin-top: 10px;
+            }
+            &-six{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #000;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            &-seven{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #FF7A00;;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            &-eight{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #0500FF;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            &-nine{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #6A197E;
+                margin-top: 10px;
+            }
+            &-ten{
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: none;
+                background: #385F19;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            &_link{
+                margin-top: 10px;
+                text-decoration: underline;
+            }
+        }
+        &_slider{
+            width: 180px;
+            &-btn-two{
+                margin-left: 4px;
+            }
+        }
+}
