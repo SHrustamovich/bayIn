@@ -1,7 +1,7 @@
-import { lazy } from "react";
+import { lazy } from "react"
 
-const MenPage = lazy(() => import("./men"))
+const MenPage = lazy(() => import("/men"))
 
-export{
-    MenPage 
+export default {
+    MenPage
 }

@@ -11,7 +11,6 @@ const Root = () => {
 
             {
                 <div>
-                    
                     <Routes>
                         {full.map(({ id, path, element }) => (
                             <Route key={id} path={path} element={element} />
