@@ -562,4 +562,31 @@ export const Icons = {
             />
         </svg>
     ),
+    finishBtn: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width={12}
+            height={12}
+            fill='none'
+            {...props}>
+            <circle cx={6} cy={6} r={6} fill='#CECECE' />
+            <path stroke='#000' d='M9 4 3 9m.5-5L9 9' />
+        </svg>
+    ),
+    bestArrow: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width={30}
+            height={30}
+            fill='none'
+            {...props}>
+            <path
+                stroke='#1C274C'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth={1.5}
+                d='M15 23V7m0 0 6 6m-6-6-6 6'
+            />
+        </svg>
+    ),
 };

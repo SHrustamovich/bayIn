@@ -1,6 +1,12 @@
 import { Button } from "antd";
 import { Icons } from "../../assets/icons";
-import { cardPageFour, cardPageThree, cardPageTwo, comments, trainers } from "../../constants/menu";
+import {
+    cardPageFour,
+    cardPageThree,
+    cardPageTwo,
+    comments,
+    trainers,
+} from "../../constants/menu";
 import { Link } from "react-router-dom";
 
 const TrainersPage = () => {
@@ -105,7 +111,9 @@ const TrainersPage = () => {
                         <div className='trainers-page_brend-som'>
                             <p>368.000 UZS</p>
                         </div>
-                        <button className='trainers-page_brend-btn'>
+                        <button
+                            className='trainers-page_brend-btn'
+                            onClick={alert("Borib bozordon ol")}>
                             В Корзину
                         </button>
                         <div className='trainers-page_brend-card'>
