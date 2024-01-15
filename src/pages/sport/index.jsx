@@ -1,10 +1,14 @@
-import { Icons } from "../../assets/icons";
-import { menuSelect, menuTitle } from "../../constants/menu";
+// import { Icons } from "../../assets/icons";
+// import { menuTitle } from "../../constants/menu";
 import useLanguage from "../../hooks/useLanguage";
 import { Button, Slider } from "antd";
 import Cards from "./cards";
+import { menuSelect, menuTitle } from "../../constants/menu";
+import { Icons } from "../../assets/icons";
+
 const SportPage = () => {
     const translate = useLanguage();
+
     return (
         <div className='sport-page'>
             <div className='sport-page_titles'>
@@ -14,9 +18,9 @@ const SportPage = () => {
                     </div>
                 ))}
             </div>
-            <div className='sport-page_title'>
+            {/* <div className='sport-page_title'>
                 <h1>{translate("boots")}</h1>
-            </div>
+            </div> */}
             <span className='sport-page_text'>341 товаров</span>
             <Button className='sport-page_btns'>Nike Jordan N312</Button>
             <Button className='sport-page_btn'>Adidas Predator</Button>
@@ -207,6 +211,7 @@ const SportPage = () => {
                 </div>
             </div>
         </div>
+        // <>salom</>
     );
 };
 
