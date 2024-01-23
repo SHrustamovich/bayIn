@@ -174,10 +174,6 @@ export const trainers = [
     {
         id: 1,
         topIcon: lineTopIcon,
-        imgOne: smallTrainer,
-        imgTwo: smallTrainerTwo,
-        imgThree: smallTrainerThree,
-        imgFour: smallTrainerFour,
         topIconTwo: lineTopIconTwo,
         imgFive: smallTrainerFour,
         imgSix: smallTrainerFive,
@@ -189,8 +185,27 @@ export const trainers = [
         adidasIcon: adidasIcon,
         bigImg: bigImg,
         adidas: adidas,
+        type: [
+            {
+                id: 1,
+                img: smallTrainer,
+            },
+            {
+                id: 2,
+                img: smallTrainerTwo,
+            },
+            {
+                id: 3,
+                img: smallTrainerThree,
+            },
+            {
+                id: 4,
+                img: smallTrainerFour,
+            },
+        ],
     },
 ];
+
 export const comments = [
     {
         id: 1,

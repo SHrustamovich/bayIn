@@ -1,75 +1,75 @@
-.footer{
+.footer {
     width: 100%;
     height: 505px;
     margin-top: 110px;
-    background: var(--Foundation-Blue-blue-500, #2B3C7A);
+    background: var(--Foundation-Blue-blue-500, #2b3c7a);
     padding-top: 70px;
     padding-left: 240px;
     gap: 10px;
-    &-title{
+    &-title {
         color: #fff;
     }
-    &-text{
-        color: #DADADA;
+    &-text {
+        color: #dadada;
         gap: 10px;
-        &-one{
+        &-one {
             padding-top: 10px;
         }
     }
-    &-title-two{
+    &-title-two {
         margin-left: 200px;
         margin-top: -230px;
         color: #fff;
     }
-    &-text-two{
+    &-text-two {
         margin-left: 200px;
-        color: #DADADA;
+        color: #dadada;
     }
-    &-title-three{
+    &-title-three {
         margin-left: 200px;
-        margin-top: 40px;  
+        margin-top: 40px;
         color: #fff;
     }
-    &-text-three{
+    &-text-three {
         margin-left: 200px;
-        color: #DADADA;
+        color: #dadada;
     }
-    &-title-four{
+    &-title-four {
         margin-left: 450px;
         margin-top: -230px;
         color: #fff;
     }
-    &-text-four{
+    &-text-four {
         margin-left: 450px;
-        color: #DADADA;
+        color: #dadada;
     }
-    &-title-five{
+    &-title-five {
         margin-left: 650px;
         margin-top: -233px;
         color: #fff;
     }
-    &-text-five{
+    &-text-five {
         margin-left: 650px;
-        color: #DADADA;
+        color: #dadada;
     }
-    &-title-six{
+    &-title-six {
         margin-left: 850px;
         margin-top: -95px;
         color: #fff;
     }
-    &-img-six{
+    &-img-six {
         cursor: pointer;
         display: flex;
         margin-left: 850px;
         margin-top: 20px;
     }
-    &-img-two-six{
+    &-img-two-six {
         cursor: pointer;
         margin-left: 850px;
         margin-top: 20px;
     }
-    &-last-title{
-        color: #DADADA;
+    &-last-title {
+        color: #dadada;
         width: 435px;
         text-align: center;
         margin-left: 300px;
