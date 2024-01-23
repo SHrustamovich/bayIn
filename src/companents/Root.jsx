@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./footer";
 const Root = () => {
     return (
-        <div className='root'>
+            <div className='root'>
             <HeaderTop />
             <Header />
 
@@ -18,9 +18,9 @@ const Root = () => {
                     </Routes>
                 </div>
             }
-            <Footer />
+                <Footer />
         </div>
-    );
+        
+    ); 
 };
-
 export default Root;

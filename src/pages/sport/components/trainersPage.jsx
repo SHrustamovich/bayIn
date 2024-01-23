@@ -1,9 +1,17 @@
 import { Button } from "antd";
 import { Icons } from "../../../assets/icons";
-import { cardPageFour, cardPageThree, cardPageTwo, comments, trainers } from "../../../constants/menu";
+import {
+    cardPageFour,
+    cardPageThree,
+    cardPageTwo,
+    comments,
+    trainers,
+} from "../../../constants/menu";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const TrainersPage = () => {
+    const [id, setId] = useState(0);
     return (
         <>
             <div className='trainers-page'>
@@ -24,29 +32,25 @@ const TrainersPage = () => {
                     <Icons.star className='trainers-page_stars-one' />
                     <span>4 отзывов</span>
                 </div>
+
                 {trainers.map((item) => (
                     <div key={item.id} className='trainers-page_service'>
                         <div className='trainers-page_service-images'>
                             <div className='trainers-page_service-images-one'>
                                 <img src={item.topIcon} alt={item.title} />
                             </div>
+                            {item.type.map(item => (
+                                <div key={item.id} className='trainers-page-btn'>
+                                <button onClick={() => setId(item.id - 1)}>
+                                    <img src={item.img} alt='hello' />
+                                </button>
+                            </div>))}
+
                             <div className='trainers-page_service-images-two'>
-                                <img src={item.imgOne} alt='hello' />
-                            </div>
-                            <div className='trainers-page_service-images-three'>
-                                <img src={item.imgTwo} alt='hello' />
-                            </div>
-                            <div className='trainers-page_service-images-four'>
-                                <img src={item.imgThree} alt='hello' />
-                            </div>
-                            <div className='trainers-page_service-images-five'>
-                                <img src={item.imgFour} alt='hello' />
-                            </div>
-                            <div className='trainers-page_service-images-six'>
                                 <img src={item.topIconTwo} alt='hello' />
                             </div>
-                            <div className='trainers-page_service-images-seven'>
-                                <img src={item.bigImg} alt='hello' />
+                            <div className='trainers-page_service-images-three'>
+                                <img src={item.type[id].img} alt='hello' />
                             </div>
                         </div>
                     </div>
