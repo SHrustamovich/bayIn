@@ -10,6 +10,9 @@ import {
 import { Link } from "react-router-dom";
 
 const TrainersPage = () => {
+    function message() {
+        alert("Borib bozordon ol")
+    }
     return (
         <>
             <div className='trainers-page'>
@@ -113,7 +116,7 @@ const TrainersPage = () => {
                         </div>
                         <button
                             className='trainers-page_brend-btn'
-                            onClick={alert("Borib bozordon ol")}>
+                            onClick={message}>
                             В Корзину
                         </button>
                         <div className='trainers-page_brend-card'>

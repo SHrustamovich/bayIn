@@ -1,5 +1,3 @@
-// import { Icons } from "../../assets/icons";
-// import { menuTitle } from "../../constants/menu";
 import useLanguage from "../../hooks/useLanguage";
 import { Button, Slider } from "antd";
 import Cards from "./cards";
@@ -18,9 +16,6 @@ const SportPage = () => {
                     </div>
                 ))}
             </div>
-            {/* <div className='sport-page_title'>
-                <h1>{translate("boots")}</h1>
-            </div> */}
             <span className='sport-page_text'>341 товаров</span>
             <Button className='sport-page_btns'>Nike Jordan N312</Button>
             <Button className='sport-page_btn'>Adidas Predator</Button>

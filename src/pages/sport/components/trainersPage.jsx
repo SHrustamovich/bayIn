@@ -39,12 +39,15 @@ const TrainersPage = () => {
                             <div className='trainers-page_service-images-one'>
                                 <img src={item.topIcon} alt={item.title} />
                             </div>
-                            {item.type.map(item => (
-                                <div key={item.id} className='trainers-page-btn'>
-                                <button onClick={() => setId(item.id - 1)}>
-                                    <img src={item.img} alt='hello' />
-                                </button>
-                            </div>))}
+                            {item.type.map((item) => (
+                                <div
+                                    key={item.id}
+                                    className='trainers-page-btn'>
+                                    <button onClick={() => setId(item.id - 1)}>
+                                        <img src={item.img} alt='hello' />
+                                    </button>
+                                </div>
+                            ))}
 
                             <div className='trainers-page_service-images-two'>
                                 <img src={item.topIconTwo} alt='hello' />
@@ -109,7 +112,8 @@ const TrainersPage = () => {
                         <div className='trainers-page_brend-som'>
                             <p>368.000 UZS</p>
                         </div>
-                        <button className='trainers-page_brend-btn'>
+                        <button
+                            className='trainers-page_brend-btn'>
                             В Корзину
                         </button>
                         <div className='trainers-page_brend-card'>

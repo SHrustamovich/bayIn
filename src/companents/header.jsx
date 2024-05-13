@@ -10,7 +10,7 @@ const Header = () => {
     const translate = useLanguage()
     return (         
 
-        <Flex className="header">   <p className="header__logo">BUY<span className="header-span">IN</span></p>
+        <Flex className="header">   <Link to={"/"}><p className="header__logo">BUY<span className="header-span">IN</span></p></Link> 
             <div className="header_catalog">
                 <Icons.categories className="header__catalog_img"/>
             <Button onClick={() => setOpen(true)} className="header__catalog">{translate("cat")}</Button>

@@ -33,7 +33,7 @@ const ru = {
 };
 const uz = {
     plan: "0% To'lov",
-    call: "Qo'ng'iroqni talab qiling",
+    call: "Qo'ng'iroqni ta'kidlang",
     punk: "Qabul qilish punkti",
     question: "Ko'p so'raladigan savollar",
     cat:"Kategoriyalar",
