@@ -70,7 +70,6 @@ export const menu = [
         path: "/men",
         icon: <Icons.cook />,
     },
-
 ];
 export const menuTitle = [
     {
@@ -256,4 +255,3 @@ export const comments = [
         dislike: Dislike,
     },
 ];
-

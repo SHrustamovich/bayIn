@@ -10,9 +10,6 @@ import {
 import { Link } from "react-router-dom";
 
 const TrainersPage = () => {
-    function message() {
-        alert("Borib bozordon ol")
-    }
     return (
         <>
             <div className='trainers-page'>
@@ -115,8 +112,7 @@ const TrainersPage = () => {
                             <p>368.000 UZS</p>
                         </div>
                         <button
-                            className='trainers-page_brend-btn'
-                            onClick={message}>
+                            className='trainers-page_brend-btn'>
                             В Корзину
                         </button>
                         <div className='trainers-page_brend-card'>
